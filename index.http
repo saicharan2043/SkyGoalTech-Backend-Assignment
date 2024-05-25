@@ -1,0 +1,20 @@
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "username" : "Saikiran",
+    "password" : "saikiran"
+}
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username" : "Saikiran",
+    "password" : "saikiran"
+}
+###
+
+GET http://localhost:5000/user
+Authorization: Brearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJpYXQiOjE3MTY2NTM0NTl9.VxstApF3a0aYZWtotkyC03iL6I1ZH6ycLpWj_H0IDHw
